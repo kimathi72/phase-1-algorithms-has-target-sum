@@ -1,5 +1,6 @@
+ // Write your algorithm here
 function hasTargetSum(array, target) {
-  // Write your algorithm here
+ 
   for (let i=0; i<array.length; i++){
     let value=target-array[i];
   for(let j=i+1; j<array.length; j++){
@@ -15,10 +16,13 @@ function hasTargetSum(array, target) {
 /* 
   Write the Big O time complexity of your function here
 */
-
+// O(n * n)
 /* 
   Add your pseudocode here
 */
+//get array and target
+//iterate through the array, find balance left after subtracting each item from target
+//check if value of the balance leave, is equal to rest of the items left in the array. 
 
 /*
   Add written explanation of your solution here
